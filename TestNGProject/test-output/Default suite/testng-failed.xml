@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.TestNG_Demo">
+      <class name="testng.SoftAssertDemoblaze">
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
+          <include name="logininvalid2"/>
           <include name="validation"/>
         </methods>
-      </class> <!-- testng.TestNG_Demo -->
+      </class> <!-- testng.SoftAssertDemoblaze -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
