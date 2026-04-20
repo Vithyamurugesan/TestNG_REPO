@@ -23,7 +23,7 @@ public class SoftAssertDemoblaze {
 	  public void beforeTest() {
 		  ChromeOptions options=new ChromeOptions();
 		  options.addArguments("--start-maximized");
-		  options.addArguments("--headless");   //browser guy is not opened
+		  //options.addArguments("--headless");   browser guy is not opened
 		  driver = new ChromeDriver(options); 
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		  driver.get("https://www.demoblaze.com/");

@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.SoftAssertDemoblaze">
+      <class name="testng.ParameterPassing">
         <methods>
-          <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="logininvalid2"/>
-          <include name="validation"/>
+          <include name="beforeTest"/>
+          <include name="invalidLoginWrongPassword"/>
+          <include name="validLogin"/>
+          <include name="invalidLoginEmpty"/>
         </methods>
-      </class> <!-- testng.SoftAssertDemoblaze -->
+      </class> <!-- testng.ParameterPassing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
